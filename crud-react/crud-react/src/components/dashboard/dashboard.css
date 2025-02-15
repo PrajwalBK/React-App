@@ -1,0 +1,21 @@
+.table-container {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Add some padding */
+}
+
+.table {
+  width: 100%; /* Set a width for the table */
+  max-width: 800px; /* Maximum width for larger screens */
+  margin: 20px 0; /* Margin above and below the table */
+ 
+}
+td{
+    text-align: center;
+}
+tr th{
+    text-align: center;
+}
